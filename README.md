@@ -2,8 +2,8 @@
 
 Git deploy with key. You can use this cookbook to deploying from your Own server via ssh.
 
-Fist step:
-==========
+First step:
+===========
 
 Convert ssh key to json compatible format:
 
