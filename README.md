@@ -1,6 +1,6 @@
 # git_dwk
 
-Git deploy with key. You can use this cookbook to deploying for your Own server via ssh.
+Git deploy with key. You can use this cookbook to deploying from your Own server via ssh.
 
 Fist step:
 ==========
@@ -14,12 +14,12 @@ cat .ssh/dummy | tr "\n" "#" | sed 's/#/\\n/g'
 Second step:
 ============
 
-Create a vault, and upload to ssh private key. You can see an example in cookbook.
+Create a vault, and upload ssh private key. You can see an example in cookbook.
 
 Third step:
 ===========
 
-Include my recipe and add this to your recipe:
+Include my recipe and add this snippet to your recipe:
 
 ```
 gitdeploy <repository> do
