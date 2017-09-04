@@ -2,8 +2,8 @@
 
 Git deploy with key. You can use this cookbook to deploying for your Own server via ssh.
 
-Fist step:
-==========
+First step:
+===========
 
 Convert ssh key to json compatible format:
 
@@ -19,7 +19,7 @@ Create a vault, and upload to ssh private key. You can see an example in cookboo
 Third step:
 ===========
 
-Include my recipe and add this to your recipe:
+Include my recipe and add this snippet to your recipe:
 
 ```
 gitdeploy <repository> do
