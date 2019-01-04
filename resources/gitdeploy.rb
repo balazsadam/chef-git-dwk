@@ -32,6 +32,7 @@ action :default do
     repository url
     reference branch
     action :sync
+    ignore_failure node['git_dwk']['ignore_failure']
     ssh_wrapper "#{Chef::Config[:file_cache_path]}/git_wrapper.sh"
   end
 end
